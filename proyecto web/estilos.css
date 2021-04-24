@@ -10,10 +10,26 @@ html {
 }
 body{
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
 }
 .titulo{
     text-align: center;
     font-size: 3.8rem;
-    font-family: Arial, Helvetica, sans-serif ;
-    
+}
+
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal a{
+    color: var(--blaco);
+    text-decoration: none;
 }
