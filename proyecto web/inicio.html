@@ -129,28 +129,30 @@
                     <!--fieldset nos permite agrupar deferentes campos-->
                     <!--Despues de un fieldset podemos agregar la etiqueta legend para dar instrucciones a los usuarios o describir el formulario-->
                     <legend>Contactanos llenando todos los campos</legend>
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu Nombre">
-                    </div>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
 
-                    <div>
-                        <label>Teléfono</label>
-                        <input type="tel" placeholder="Tu Teléfono">
-                    </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
 
-                    <div>
-                        <label>Email</label>
-                        <input type="email" placeholder="Tu Email">
-                    </div>
+                        <div class="campo">
+                            <label>Email</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
 
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea></textarea>
-                    </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div><!--contenedor de los campos e inputs-->
 
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
                     </div>
 
 
