@@ -73,7 +73,7 @@ function validarXML() {
   };
   xhr.open(
     'GET',
-    '/registros.xml',
+    './registros.xml',
     true
   );
   xhr.send();
