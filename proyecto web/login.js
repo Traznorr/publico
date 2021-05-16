@@ -73,7 +73,7 @@ function validarXML() {
   };
   xhr.open(
     'GET',
-    '',
+    'https://github.com/Traznorr/publico/blob/b1878692b1db9fa4f5f9f33e257aafd05f634c67/proyecto%20web/registros.xml',
     true
   );
   xhr.send();
