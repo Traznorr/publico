@@ -73,7 +73,7 @@ function validarXML() {
   };
   xhr.open(
     'GET',
-    'https://traznorr.github.io/publico/proyecto_web/registros.xml',
+    '/registros.xml',
     true
   );
   xhr.send();
