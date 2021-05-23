@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>loguearse</title>
     <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./login.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body onload="controlar()">
 
@@ -27,19 +29,24 @@
   </div>
 
 
-    <center>
+  <div class="login-box">
+    <img class="avatar" src="/proyecto web/img/logo.png" alt="logo de warbits">
+    <h1>Login Here</h1>
+    
       <form
         method="GET"
         id="ingresar"
         name="miFormulario"
         onSubmit="return intentar()"
       >
-        <label for="apellido"> USUARIO</label>
+        <label for="apellido">USUARIO</label>
         <input type="text" id="usr" name="formUsuario" required /><br />
         <label for="apellido">CONTRASEÑA</label>
         <input type="password" id="clv" name="formClave" required /><br />
         <input type="submit" value="Iniciar Sesión" />
       </form>
-    </center>
+    
+  </div>
+
   </body>
 </html>
