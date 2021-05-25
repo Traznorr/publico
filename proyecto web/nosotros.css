@@ -4,13 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .contenido_nosotros {
-    width: 100%;
-    
+    width: 540px;
+    height: 440px;
+    padding: 20px 20px;
     margin: auto;
+    
 }
 
 .contenido_nosotros img{
-    width: 300px;
+    width: 540px;
+   
+    
     
 }
