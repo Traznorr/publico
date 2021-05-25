@@ -1,0 +1,16 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenido_nosotros {
+    width: 100%;
+    
+    margin: auto;
+}
+
+.contenido_nosotros img{
+    width: 300px;
+    
+}
