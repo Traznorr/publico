@@ -4,7 +4,7 @@
 
 
 body{
-    margin: auto;
+    margin: 0;
 }
 .galeria {
     width: 90%;
@@ -31,14 +31,11 @@ body{
 /*estilos modal*/
 
 .modal {
-    visibility: hidden;
-    opacity: 0;
+    display: none;
 }
 
 .modal:target {
-    visibility: visible;
-    opacity: 1;
-    transition: all 0.5s;
+    display: block;
     position: fixed;
     background: rgba(0, 0, 0, 0.8);
     top: 0;
@@ -77,7 +74,7 @@ flex-shrink: 2;
 }
 
 .imagen img{
-    width: 500px;
+    width: 768px;
     height: 100%;
     max-width: 100%;
     border: 7px solid;
