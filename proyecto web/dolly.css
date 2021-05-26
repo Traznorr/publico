@@ -62,3 +62,24 @@
     justify-content: center;
     
   }
+
+  .btn{
+    background-repeat: 3px;
+    text-decoration: none;
+    
+  }
+
+  .btn-color{
+    color: #fff;
+    background-color: #0097a7;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+  }
