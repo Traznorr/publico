@@ -116,8 +116,7 @@ flex-shrink: 2;
     width: 500px;
     height: 100%;
     max-width: 100%;
-    border: 7px solid;
-    box-sizing: border-box;
+    
 }
 
 .cerrar-diagrama{
@@ -125,7 +124,7 @@ flex-shrink: 2;
     background: #fff;
     width: 25px;
     height: 25px;
-    margin: 275px auto;
+    margin: 325px auto;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
@@ -134,4 +133,14 @@ flex-shrink: 2;
     border-radius: 50%;
     line-height: 25px;
 
+}
+
+.zoom{
+    transition: transform .5s;
+    padding-top: 100px;
+    
+}
+
+.zoom:hover{
+    transform: scale(1.5);
 }
