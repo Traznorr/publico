@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
 }
 .galeria {
     width: 90%;
@@ -30,5 +31,9 @@
     width: 368px;
     height: 368px;
     
+}
+.galeria p{
+    line-height: 2;
+    text-align: center;
 }
 
