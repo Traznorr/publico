@@ -29,11 +29,14 @@ body{
 /*estilos modal*/
 
 .modal {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .modal:target {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
     position: fixed;
     background: rgba(0, 0, 0, 0.8);
     top: 0;
