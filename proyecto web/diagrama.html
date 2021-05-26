@@ -1,37 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>te has logueado</title>
-    <link rel="stylesheet" href="dolly.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <title>proyectoweb</title>
     <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="./galeria.css">
     <link rel="stylesheet" href="./normalize.css">
-    <script src="./logingcorrecto.js"></script>
-  </head>
-  <body>
+
+</head>
+
+<body>
     <header>
-      <h1>WarBits</h1>
+        <h1>WarBits</h1>
 
-  </header>
+    </header>
 
-  <div class="nav-bg">
-      <nav class="navegacion-principal contenedor">
-          <!--Usamos y añadimos nav para crear el menu con los enlaces-->
-          <a href="./inicio.html">Inicio</a>
-          <a href="./nosotros.html">Sobre Nosotros</a>
-          <a href="./galeria.html">Galeria</a>
-          <a href="./registro.html">Login</a>
-      </nav>
-  </div>
-
-  <section class="hero">
-    <divc class="contenido-hero">
-        </div>
-</section>
-
-    <h1>BienVenido Al Mundo De Warbits</h1>
-    <div class="container">
-      <img src="" alt="">
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <!--Usamos y añadimos nav para crear el menu con los enlaces-->
+            <a href="./inicio.html">Inicio</a>
+            <a href="./nosotros.html">Sobre Nosotros</a>
+            <a href="./galeria.html">Galeria</a>
+            <a href="./registro.html">Login</a>
+        </nav>
     </div>
+
+    <section class="hero">
+        <divc class="contenido-hero">
+            </div>
+    </section>
+
+    <h1>Galeria Sobre Nuestros Trabajos</h1>
+    <ul class="galeria contenedor sombra">
+        <li><a href="#img1"><img src="./img/DIAGRAMA ACTIVIDAD PROYECTO WARBIT (1).png"></a></li>
+        <li><a href="#img2"><img src="./img/diagrama warbits.png"></a></li>
+    </ul>
+
+    <div class="modal" id="img1">
+        
+        <div class="imagen-diagrama">
+            <a href="#img2">&#60;</a>
+            <a href="#img2"><img src="./img/DIAGRAMA ACTIVIDAD PROYECTO WARBIT (1).png"></a>
+            <a href="#img2">></a>
+        </div>
+        <a class="cerrar-diagrama" href="">X</a>
+    </div>
+    <div class="modal" id="img2">
+        
+        <div class="imagen-diagrama">
+            <a href="#img1">&#60;</a>
+            <a href="#img1"><img src="./img/diagrama warbits.png"></a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar-diagrama" href="">X</a>
+    </div>
+    
+   
+    
+
+
+    <footer>
+        <p>Todos los derecho reservado Guzmán Fakhouri Martín</p>
+    </footer>
+</body>
+
+</html>
